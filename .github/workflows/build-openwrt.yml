@@ -357,3 +357,5 @@ jobs:
             - Login to OpenWrt → System → Amlogic Service → Install OpenWrt
             ### OpenWrt Image Verification
             - sha256sum
+schedule:
+  - cron: '0 24 * * *'
