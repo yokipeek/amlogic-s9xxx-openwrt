@@ -358,4 +358,4 @@ jobs:
             ### OpenWrt Image Verification
             - sha256sum
 schedule:
-  - cron: '0 24 * * *'
+  - cron: '0 17 * * *'
